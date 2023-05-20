@@ -1,3 +1,9 @@
+---
+title:  "1-static-web-build"
+mathjax: false
+layout: post
+categories: assignment
+---
 # 실습-1 정적 웹 페이지 개발
 
 [과제 링크](https://classroom.github.com/a/XHA25laR "과제 링크")
