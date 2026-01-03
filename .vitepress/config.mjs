@@ -2,28 +2,25 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  srcDir : "./pages",
-  title: "my blog",
-  description: "Jeonghun Seo",
+  srcDir: './pages',
+  title: 'Jeonghun Seo',
+  description: 'CV and blog',
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
-      { text: 'Home', link: '/' },
-      { text: 'Examples', link: '/markdown-examples' }
+      { text: 'CV', link: '/' },
+      { text: 'Blog', link: '/blog/' }
     ],
 
     sidebar: [
       {
-        text: 'Examples',
-        items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
-        ]
+        text: 'Blog',
+        items: [{ text: 'Overview', link: '/blog/' }]
       }
     ],
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
+      { icon: 'github', link: 'https://github.com/jeonghun-seo' }
     ]
   }
 })
