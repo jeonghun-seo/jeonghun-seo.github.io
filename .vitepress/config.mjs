@@ -1,10 +1,29 @@
 import { defineConfig } from 'vitepress'
+import Icons from 'unplugin-icons/vite'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   srcDir: './pages',
-  title: 'Jeonghun Seo',
+  title: 'JeongHun Seo',
   description: 'CV and blog',
+  vite: {
+      plugins: [
+        Icons({
+          compiler: 'vue3',
+          autoInstall: true
+        })
+      ]
+    },
+  head: [
+    [
+      'link',
+      {
+        rel: 'stylesheet',
+        href:
+          'https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css'
+      }
+    ]
+  ],
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
@@ -22,5 +41,5 @@ export default defineConfig({
     socialLinks: [
       { icon: 'github', link: 'https://github.com/jeonghun-seo' }
     ]
-  }
+  },
 })
