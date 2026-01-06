@@ -17,7 +17,7 @@ import IconGithub from '~icons/mdi/github'
           <img src="./profile_1.jpg" alt="pic" />
         </div>
         <div>
-          <h1 class="cv-name">서 정 훈 / JeongHun Seo</h1>
+          <h1 class="cv-name">서정훈 / JeongHun Seo</h1>
           <p class="cv-intro">
             M.S. Student, Department of Information and Communication Engineering <br />
             Chungbuk National University
@@ -40,35 +40,33 @@ import IconGithub from '~icons/mdi/github'
     </div>
   </section>
     <section class="cv-grid">
-        <section class="cv-card">
+          <section class="cv-card">
             <h2 class="cv-section-title">Research Interests</h2>
-            <div class="cv-interest">
-                <div>
-                    <h3>Large Language Models</h3>
-                    <p>Instruction tuning, Hallucination analysis, Retrieval-Augmented Generation </p>
-                </div>
-                <div>
-                    <h3>Recommendation System</h3>
-                    <p>RAG pipeline design, retrieval quality, hybrid dense–graph retrieval</p>
-                </div>
-                <div>
-                    <h3>Graphs & Knowledge</h3>
-                    <p>Graph theory, knowledge graphs, graph-based recommendation and reasoning</p>
-                </div>
-            </div>
-        </section>
+            <ul class="cv-list">
+              <li>
+                <strong>Large Language Models</strong><br />
+                Instruction tuning, Hallucination analysis, RAG
+              </li>
+              <li>
+                <strong>Recommendation System</strong><br />
+                Spatio-Temporal, Context-aware, Next PoI
+              </li>
+              <li>
+                <strong>Graphs & Knowledge</strong><br />
+                Graph theory, Knowledge graphs, GNN
+              </li>
+            </ul>
+          </section>
         <section class="cv-card">
             <h2 class="cv-section-title">Education</h2>
             <ul class="cv-list">
                 <li>
-                    <strong>M.S. in Big Data (in progress)</strong><br />
-                    Chungbuk National University · YYYY — Present<br />
-                    Thesis topic: <em>[to be decided / your tentative topic]</em>
+                    <strong>M.S. in Information and Communication Engineering</strong><br />
+                    Chungbuk National University, 2025 -  <br/>
                 </li>
                 <li>
-                    <strong>B.S. in [Your Major]</strong><br />
-                    [Your University] · [Years]<br />
-                    (Fill in your undergrad info here)
+                    <strong>B.S. in Computer Engineering</strong><br />
+                    Korea National University of Transportation, 2019 - 2024 <br/>
                 </li>
             </ul>
         </section>
